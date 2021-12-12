@@ -8,4 +8,5 @@ CREATE TABLE DEVICESETTINGS (
   CONSTRAINT PK_DEVICESETTINGS PRIMARY KEY (DEVICESETTINGS_ID)
 );
 INSERT INTO "DEVICESETTINGS" VALUES(11,'Bowery SCADA Simulator','SimulatorDevice','Provides simulated test environment',1);
+INSERT INTO "DEVICESETTINGS" VALUES(1,'omron','com.inductiveautomation.FinsTcpDeviceType',NULL,1);
 COMMIT;
